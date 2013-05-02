@@ -1,0 +1,58 @@
+{
+"name": "RAI",
+"description": "Accedi ai canali RAI dall'estero. Canali Live e RAI Replay",
+"author": "Nello Castellano",
+"site": "http://nellocastellano.com",
+"unblocker_rules": {
+  "rai 1": {
+      		"description": "RAI 1",
+       		"link": "http://www.rai1.rai.it",
+       		"icon": "http://www.rai.tv/dl/rai/images/canali/color/rai1.png",
+       		"cmds": [{
+		        "hosts": ["rai.tv","live.smoothstreaming.rai.it","mediapolis.rai.it","rai.it"],
+			"dst_dns": "true",
+       			"then": "PROXY IT"
+		        }]
+		},
+	"rai 2": {
+      		"description": "RAI 2",
+       		"link": "http://www.rai2.rai.it",
+       		"icon": "http://www.rai.tv/dl/rai/images/canali/color/rai2.png",
+       		"cmds": [{
+		        "hosts": ["rai.tv","live.smoothstreaming.rai.it","mediapolis.rai.it","rai.it"],
+			"dst_dns": "true",
+       			"then": "PROXY IT"
+		        }]
+		},
+	"rai 3": {
+      		"description": "RAI 3",
+       		"link": "http://www.rai3.rai.it",
+       		"icon": "http://www.rai.tv/dl/rai/images/canali/color/rai3.png",
+       		"cmds": [{
+		        "hosts": ["rai.tv","live.smoothstreaming.rai.it","mediapolis.rai.it","rai.it"],
+			"dst_dns": "true",
+       			"then": "PROXY IT"
+		        }]
+		},
+	"rai 4": {
+      		"description": "RAI 4",
+       		"link": "http://www.rai4.rai.it",
+       		"icon": "http://www.rai.tv/dl/rai/images/canali/color/rai4.png",
+       		"cmds": [{
+		        "hosts": ["rai.tv","live.smoothstreaming.rai.it","mediapolis.rai.it","rai.it"],
+			"dst_dns": "true",
+       			"then": "PROXY IT"
+		        }]
+		},
+	"rai 5": {
+      		"description": "RAI 5",
+       		"link": "http://www.rai5.rai.it",
+       		"icon": "http://www.rai.tv/dl/rai/images/canali/color/rai1.png",
+       		"cmds": [{
+		        "hosts": ["rai.tv","live.smoothstreaming.rai.it","mediapolis.rai.it","rai.it"],
+			"dst_dns": "true",
+       			"then": "PROXY IT"
+		        }]
+		}
+	}
+}
